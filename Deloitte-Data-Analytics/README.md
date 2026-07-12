@@ -1,73 +1,133 @@
 # Deloitte Data Analytics Virtual Experience (Forage)
 
-## Overview
+## Project Overview
 
-Completed Deloitte Australia's Data Analytics Virtual Experience Program on Forage.
-
-The program focused on solving real-world manufacturing and HR analytics problems using Tableau and Excel.
+Completed the Deloitte Australia Data Analytics Virtual Experience Program on Forage, where I solved real-world business problems using Tableau and Microsoft Excel. The program focused on manufacturing analytics, interactive dashboard creation, and HR data analysis to support data-driven decision-making.
 
 ---
 
-## Skills Demonstrated
-
-- Tableau Dashboard Development
-- Data Cleaning
-- Calculated Fields
-- Excel Functions
-- Data Analysis
-- Business Insights
-- Manufacturing Analytics
-- HR Analytics
-
----
-
-# Task 1 — Manufacturing Downtime Analysis
+# Task 1 – Manufacturing Downtime Analysis
 
 ## Business Problem
 
-Daikibo Industries collected telemetry data from four manufacturing plants to identify:
+Daikibo Industries collected one month of machine telemetry data from four manufacturing plants to determine:
 
-- Which factory experienced the highest machine downtime
-- Which machine types contributed most to production downtime
+- Which factory experienced the highest machine downtime.
+- Which machine types contributed most to equipment failures at that factory.
 
-## Tools
+---
+
+## Dataset
+
+- Daikibo Telemetry Data (JSON)
+- One month of machine health status data
+- Four manufacturing facilities
+- Nine machine types
+
+---
+
+## Tools Used
 
 - Tableau
-
-## Dashboard
-
-Dashboard created using:
-
-- Calculated Field
-- Interactive Filters
-- Bar Charts
-
-### Key Findings
-
-- Daikibo Factory Seiko experienced the highest downtime.
-- Laser Welder machines generated the maximum downtime.
-- Laser Cutter machines were the second highest contributor.
-
-### Business Recommendation
-
-- Prioritize preventive maintenance for Laser Welders.
-- Increase monitoring of equipment at the Seiko factory.
-- Schedule predictive maintenance to minimize production interruptions.
+- Calculated Fields
+- Interactive Dashboard
+- Data Visualization
 
 ---
 
-# Task 2 — Gender Pay Equality Analysis
+## Dashboard Name
+
+**Manufacturing Downtime Analysis Dashboard**
+
+### Tableau Public Dashboard
+
+https://public.tableau.com/app/profile/anshu.jain5590/viz/ForageProject-Deloitte-DataAnalytics/Dashboard1?publish=yes
+
+---
+
+## Dashboard Screenshot
+
+---
+
+## Key Insights
+
+- Daikibo Factory Seiko recorded the highest machine downtime.
+- Laser Welder machines contributed the most downtime.
+- Laser Cutter machines were the second-largest contributor.
+- Berlin factory experienced the least downtime.
+
+---
+
+## Business Recommendations
+
+- Prioritize preventive maintenance for Laser Welder machines.
+- Increase monitoring and maintenance frequency at the Seiko factory.
+- Implement predictive maintenance to reduce unexpected production downtime.
+
+---
+
+# Task 2 – Gender Pay Equality Analysis
 
 ## Business Problem
 
-Analyze employee equality scores across factories and classify departments according to pay equality.
+Analyze employee equality scores across multiple factories and classify departments based on gender pay equality.
 
-## Tool
+---
+
+## Dataset
+
+- Equality Table.xlsx
+
+---
+
+## Tools Used
 
 - Microsoft Excel
+- IF Formula
+- Logical Functions
 
-## Excel Formula
+---
+
+## Excel Formula Used
 
 ```excel
 =IF(OR(C2>20,C2<-20),"Highly Discriminative",
 IF(OR(C2>10,C2<-10),"Unfair","Fair"))
+```
+
+---
+
+## Classification Categories
+
+- Fair
+- Unfair
+- Highly Discriminative
+
+---
+
+## Outcome
+
+Successfully classified employee equality scores into three categories, helping identify departments that require further investigation for potential pay inequality.
+
+---
+
+# Files Included
+
+- Deloitte Data Analytics Certificate.pdf
+- Manufacturing-Downtime-Dashboard.png
+- Equality-Classification.xlsx
+
+---
+
+# Key Skills
+
+- Tableau
+- Microsoft Excel
+- Dashboard Development
+- Data Visualization
+- Manufacturing Analytics
+- HR Analytics
+- Business Intelligence
+- Data Analysis
+- Logical Functions
+- Calculated Fields
